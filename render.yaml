@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: 404
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
